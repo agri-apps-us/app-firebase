@@ -1,0 +1,30 @@
+{
+  "name": "@agri-apps-us/app-firebase",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/agri-apps.firebase.js",
+  "module": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "john robinson <johnrob1880@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "babel-loader": "^8.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "terser-webpack-plugin": "^2.3.5",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  },
+  "peerDependencies": {
+    "firebase": "^7.13.2",
+    "lodash": "^4.17.15"
+  },
+  "dependencies": {
+    "@agri-apps-us/app-core": "0.0.4",
+    "vuex": "^3.1.3"
+  }
+}
